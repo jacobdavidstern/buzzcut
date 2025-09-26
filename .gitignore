@@ -1,0 +1,20 @@
+# .gitignore — buzzcut concept repo
+# Focused on reproducible layout scaffolding and config stewardship
+
+# Dependency folders — never tracked
+node_modules/
+dist/
+build/
+
+# Labs folder — privatized but structurally preserved
+labs/*                 # ignore all contents
+!labs/.gitkeep         # keep placeholder for folder tracking
+
+# Logs and environment files — local only
+*.log
+.env
+
+# Optional: editor or OS artifacts (uncomment if needed)
+# .DS_Store
+# Thumbs.db
+# *.swp
