@@ -1,12 +1,12 @@
 {
-  "name": "fse-instructor",
-  "description": "Instructor-led showcase in CommonJS mode from Codecademy's Full Stack Engineer program.",
+	"name": "buzzcut",
+	"description": "Config stewardship and modular layout concept repo.",
   "author": "Jacob Stern",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
   "type": "commonjs",
-  "homepage": "https://github.com/jacobdavidstern/fse-instructor#readme",
+  "homepage": "",
   "scripts": {
     "lint": "eslint . --ext .js,.cjs",
     "lint:htmlhint": "htmlhint '**/*.html'",
@@ -22,9 +22,7 @@
     "test": "echo \"TBD test\" && exit 0"
   },
   "keywords": [
-    "full-stack-engineer",
-    "bootcamp",
-    "showcase"
+    ""
   ],
   "devDependencies": {
     "@awmottaz/prettier-plugin-void-html": "^1.9.0",
